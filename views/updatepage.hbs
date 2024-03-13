@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/updatepage" method="post">
+        <input id="productname" name="productname" value="{{updatepage.productname}}">
+        <input id="productnumber" name="productnumber" value="{{updatepage.productnumber}}">
+        <input type="hidden" name="productid" id="productid" value="{{updatepage.productid}}">
+        <button>submit</button>
+    </form>
+</body>
+</html>

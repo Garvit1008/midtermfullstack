@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {{#each blogs}}
+    <li>{{this.productname}}</li>
+      <li>{{this.productnumber}}</li>
+      <button><a href="/delete/{{this.productid}}">delete</a></button>
+            <button><a href="/update/{{this.productid}}">update</a></button>
+      {{/each}}
+</body>
+</html>
